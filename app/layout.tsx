@@ -1,0 +1,17 @@
+
+
+export const metadata = {
+  title: "KR Studio | Linktree",
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="es">
+      <body> ="antialiased">{children}</body>
+    </html>
+  );
+}
